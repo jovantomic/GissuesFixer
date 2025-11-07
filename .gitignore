@@ -1,0 +1,24 @@
+# API Keys
+.env
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+ab_test_results.json
+humaneval_fix.jsonl
+evaluation_results*.json
+*.log
+
+
+.vscode/
+.idea/
+*.swp
+
+
+.DS_Store
+Thumbs.db

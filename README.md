@@ -6,7 +6,7 @@ AI agent for automatically fixing buggy Python code, evaluated on HumanEvalFix b
 
 **Direct Agent: 63.8% Pass@1** (104/163 fixed, 19.01s avg)
 
-I also tried a ReAct-style agent that uses iterative reasoning (Thought → Action → Observation loops), but it performed worse at 56.4% Pass@1 despite being faster (12.65s avg). I initially experimented with tool calling as well, but that was even worse, so I removed it. The simple direct approach with a single LLM call turned out most reliable.
+I also tried a ReAct-style agent that uses iterative reasoning (Thought → Action → Observation loops), but it performed worse at 56.4% Pass@1. I initially experimented with tool calling as well, but that was even worse, so I removed it. The simple direct approach with a single LLM call turned out most reliable.
 
 ## Setup
 
